@@ -1,5 +1,5 @@
 #### 🙋‍♂️ Dsc: I'm just a stupid person, but I never give up!
-#### 🎯 Target： To be a powerful golang developer
+#### 🎯 Target： To be a awesome golang developer
 #### 🌸 My Blog: https://ruixi.me  
 <table border="0">
   <tr>
