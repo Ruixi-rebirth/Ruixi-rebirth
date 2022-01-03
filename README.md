@@ -1,5 +1,6 @@
-<b style="font-weigh:700;font-family:hack;font-size:18px>Dec: I'm just a stupid person, but I never give up!</b>
-          
+### Dec: I'm just a stupid person, but I never give up!
+### Target： To be a owerful golang developer
+### My Blog: https://ruixi.me         
 
 
 <b style="font-weigh:700;font-family:hack;font-size:18px">People who are not born with knowledge, can there be no confusion? If you don’t follow the teacher if you are confused, you will be confused, and you will never understand it. Before I was born, he heard the Tao before me, and I learned from it; after I was born, he heard the Tao before me, and I learned from it. My teacher also knows how he was born in me? Therefore, there is no noble and no low, no strength and no less, the existence of the Tao and the existence of the teacher.</b>
