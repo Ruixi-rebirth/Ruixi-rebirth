@@ -6,7 +6,7 @@
 
    
 
-<table border="0">
+<table border="5">
   <tr>
     <td>
       <a href="#TOP">
