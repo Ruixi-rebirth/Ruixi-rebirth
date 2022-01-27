@@ -34,11 +34,13 @@ func main() {
 
 func GetStatus() Status {
 	return Status{
-		"- 🔭 I’m currently working on":      "Pending...",
+		"- 🍎 I’m currently working on":      "Pending...",
 		"- 🌱 I’m currently learning":        "Golang, Linux, Computer network, Html, Css",
-		"- 👯 I’m looking to collaborate on": "Python, Golang and Docker related projects",
+		"- 🥣 I’m looking to collaborate on": "Python, Golang and Docker related projects",
 		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
 		"- 💬 Ask me about":                  "😃I'm so suck， so shouldn't get the result you want",
+		"- 🍡 How to reach me:":              "https://ruixi.me",
+
 	}
 }
 ```
