@@ -1,4 +1,4 @@
-#### Hey 👋, I'm [Ruixi-rebirth!](https://ruixi.me)  
+### Hey 👋, I'm [Ruixi-rebirth!](https://ruixi.me)  
 
 
 <table border="0">
