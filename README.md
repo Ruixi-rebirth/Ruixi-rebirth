@@ -40,8 +40,7 @@ func GetStatus() Status {
 		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
 		"- 💬 Ask me about":                  "😃I'm so suck， so shouldn't get the result you want",
 		"- 🍡 How to reach me":               "https://ruixi.me",
-
-	}
+        }
 }
 ```
 
