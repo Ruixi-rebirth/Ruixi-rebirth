@@ -12,7 +12,7 @@
 
 <hr>
 
-| [<img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="300">](https://neovim.io/) | [<img src="https://github-readme-stats.vercel.app/api?username=Ruixi-rebirth&count_private=true&show_icons=true&theme=dracula&hide_border=true" style="color:gray;cursor:pointer;pointer-events:none;" >](https://neovim.io/)
+| [<img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="300">](https://neovim.io/) | [<img src="https://github-readme-stats.vercel.app/api?username=Ruixi-rebirth&count_private=true&show_icons=true&theme=nord&hide_border=true" style="color:gray;cursor:pointer;pointer-events:none;" >](https://neovim.io/)
 |---|---|
 
 
