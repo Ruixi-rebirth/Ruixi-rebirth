@@ -12,7 +12,7 @@
 
 - **Now I am learning**
 
-| [<img src="https://raw.githubusercontent.com/Delta456/Delta456/master/img/golang.png" alt="go logo" width="35">](https://golang.org/)  | [<img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" width="30">](https://www.w3schools.com/html/) |
+| [<img src="https://go.dev/blog/go-brand/logos.jpg" alt="go logo" width="35">](https://golang.org/)  | [<img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" width="30">](https://www.w3schools.com/html/) |
 |---|---|
 
 <hr>
