@@ -2,7 +2,7 @@
 
 - **Currently the OS I am using**
 
-| [<img src="https://s2.loli.net/2022/02/24/BZyWPQiDcaxpt6d.png" width="24" >](https://archlinux.org/) |
+| [<img src="https://www.gentoo.org/assets/img/logo/gentoo-3d-small.png" width="24">](https://www.gentoo.org/) |
 |---|
 
 - **Currently the development tools I am  using**
