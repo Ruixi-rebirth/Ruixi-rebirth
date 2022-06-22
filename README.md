@@ -1,4 +1,4 @@
-### Hey 👋, I'm [Ruixi-rebirth!](https://ruixi.me)  
+<p align="center"><img width="240" src="https://s2.loli.net/2022/06/22/DLoBqPczfdMNX18.gif" /></p>
 
 - **Currently the OS I am using**
 
@@ -17,9 +17,14 @@
 
 <hr>
 
-| [<img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="300">](https://neovim.io/) | [<img src="https://github-readme-stats.vercel.app/api?username=Ruixi-rebirth&count_private=true&show_icons=true&theme=nord&hide_border=true" style="color:gray;cursor:pointer;pointer-events:none;" >](https://neovim.io/)
-|---|---|
 
+
+<table align="center">
+	<tr>
+		<td><img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="300"></td>
+		<td><img src="https://github-readme-stats.vercel.app/api?username=Ruixi-rebirth&count_private=true&show_icons=true&theme=nord&hide_border=true" style="color:gray;cursor:pointer;pointer-events:none;" ></td>
+	</tr>
+</table>
 
 	
 
