@@ -1,4 +1,4 @@
-<p align="center"><img width="240" src="https://s2.loli.net/2022/06/22/DLoBqPczfdMNX18.gif" /></p>
+<p align="center"><img width="240" src="./top1.gif" /></p>
 
 - **Currently the OS I am using**
 
