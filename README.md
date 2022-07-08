@@ -21,7 +21,7 @@
 
 <table align="center">
 	<tr>
-		<td><img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="300"></td>
+		<td><img src="./creazy1.gif" width="350"></td>
 		<td><img src="https://github-readme-stats.vercel.app/api?username=Ruixi-rebirth&count_private=true&show_icons=true&theme=nord&hide_border=false&bg_color=1e1e2e&text_color=cdd6f4&icon_color=cba6f7&title_color=94e2d5" style="color:gray;cursor:pointer;pointer-events:none;" ></td>
 	</tr>
 </table>
