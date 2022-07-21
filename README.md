@@ -3,9 +3,10 @@
 <!--https://git.io/typing-svg-->
 <img src="https://readme-typing-svg.herokuapp.com?size=14&color=B7B3F7&center=true&vCenter=true&height=20&lines=%E3%80%8C+%E6%98%8E%E6%98%8E%E8%BF%98%E6%B2%A1%E6%9C%89%E5%8A%AA%E5%8A%9B%E8%BF%87%2C+%E6%9C%89%E4%BB%80%E4%B9%88%E8%84%B8%E7%9A%AE%E5%A4%B1%E8%90%BD%E8%87%AA%E5%8D%91!!+%E3%80%8D">
 </p>
-<p align="center">
+
+<!--<p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=Ruixi-rebirth&count_private=true&show_icons=true&theme=nord&hide_border=false&bg_color=1e1e2e&text_color=cdd6f4&icon_color=cba6f7&title_color=94e2d5" style="color:gray;cursor:pointer;pointer-events:none;" >
-</p>
+</p>-->
 
 <br>
 
