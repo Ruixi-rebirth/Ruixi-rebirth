@@ -1,0 +1,41 @@
+# For documentation and available settings, see
+# https://github.com/srid/emanote/blob/master/default/index.yaml
+
+page:
+  siteTitle: Ruixi rebirth
+  siteName: Ruixi-rebirth
+  headHtml: |
+    <snippet var="js.highlightjs" />
+
+template:
+  theme: pink
+
+  editBaseUrl: https://github.com/Ruixi-rebirth/Ruixi-rebirth/edit/master
+
+  # Uncomment this to get neuron-style pages
+  name: /templates/layouts/note
+  layout:
+    base:
+      bodyClass: overflow-y-scroll bg-gray-400
+    note:
+      containerClass: container mx-auto max-w-screen-lg
+
+  iconUrl: static/favicon.ico
+  sidebar:
+    collapsed: true
+
+  # If you are hosting on GitLab Pages, you may want to remove this.
+  urlStrategy: pretty
+
+pandoc:
+  rewriteClass:
+    prose: max-w-prose mx-auto
+    # Centered photo
+    photoframe-center: sm:w-3/4 md:w-1/2 mx-auto flex items-center justify-center
+    # Photo floating to right
+    photoframe: w-full sm:w-64 float-right sm:ml-2 mb-2 sm:mb-0 border-2 p-1 bg-gray-50
+    # Content immediately following a right-floated photo
+    photoframe-below: clear-right
+    page-note: text-sm text-gray-600 flex items-center justify-center my-4 italic
+    editor-note: text-gray-500 text-sm
+
