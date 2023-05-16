@@ -13,12 +13,12 @@ template:
   editBaseUrl: https://github.com/Ruixi-rebirth/Ruixi-rebirth/edit/master
 
   # Uncomment this to get neuron-style pages
-  name: /templates/layouts/note
-  layout:
-    base:
-      bodyClass: overflow-y-scroll bg-gray-400
-    note:
-      containerClass: container mx-auto max-w-screen-lg
+  # name: /templates/layouts/note
+  # layout:
+  #   base:
+  #     bodyClass: overflow-y-scroll bg-gray-400
+  #   note:
+  #     containerClass: container mx-auto max-w-screen-lg
 
   iconUrl: static/favicon.ico
   sidebar:
