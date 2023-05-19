@@ -20,7 +20,7 @@ template:
   #   note:
   #     containerClass: container mx-auto max-w-screen-lg
 
-  iconUrl: static/favicon.ico
+  iconUrl: static/favicon.png
   sidebar:
     collapsed: true
 
