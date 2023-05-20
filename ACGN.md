@@ -2,7 +2,7 @@
 slug: ACGN 
 template:
   sidebar:
-    collapsed: false
+    collapsed: true
 ---
 
 我可不是二次元～
