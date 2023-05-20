@@ -8,6 +8,9 @@ template:
       bodyClass: overflow-y-scroll bg-gray-100
 ---
 
-<p align="center">
-<iframe  width="800px" height="400px" src="https://www.youtube.com/embed/NLwC7eu-Zfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p  style="position: relative; width: 100%; 
+    padding-top: calc(100% * 720 / 1280);">
+    <iframe src="https://www.youtube.com/embed/NLwC7eu-Zfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; width: 100%; height: 100%; top: 0;">
+    </iframe>
 </p>
+
