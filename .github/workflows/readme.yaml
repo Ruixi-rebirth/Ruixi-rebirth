@@ -1,0 +1,15 @@
+name: update-readme
+on:
+  workflow_dispatch: # allows manual triggering
+  schedule:
+    - cron: '0 0 * * 0' # runs weekly on Sunday at 00:00
+
+jobs:
+  README:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Update top language
+        run: |
+          sh ./top_language.sh > top_language.md
