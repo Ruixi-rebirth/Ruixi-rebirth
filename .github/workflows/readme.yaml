@@ -1,8 +1,8 @@
 name: update-readme
 on:
-  workflow_dispatch: # allows manual triggering
+  workflow_dispatch: 
   schedule:
-    - cron: '0 0 * * 0' # runs weekly on Sunday at 00:00
+    - cron: '0 20 * * *' # 每天UTC时间晚上4点执行（北京时间24点）
 
 jobs:
   README:
@@ -12,4 +12,4 @@ jobs:
         uses: actions/checkout@v3
       - name: Update top language
         run: |
-          sh ./top_language.sh > top_language.md
+          sh ./top_language.sh > README.md
