@@ -1,15 +1,34 @@
 name: update-readme
 on:
-  workflow_dispatch: 
+  push:
+    branches:
+      - master
   schedule:
-    - cron: '0 20 * * *' # 每天UTC时间晚上4点执行（北京时间24点）
+    - cron: "0 * * * *"
 
 jobs:
-  README:
+  update:
+    name: update
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
-      - name: Update top language
+        with:
+          fetch-depth: 2
+
+      - name: Update README.md
         run: |
-          bash ./top_language.sh > README.md
+          if bash ./top_language.sh > README.md; then
+            git config --local user.name "github-actions"
+            git config --local user.email "action@github.com"
+            git add README.md
+            if [ "$(git log --format=%an HEAD~..HEAD)" = github-actions ]; then
+              git commit --amend --no-edit
+              git push -f
+            else
+              git commit -m "update README.md"
+              git push
+            fi
+          fi
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
