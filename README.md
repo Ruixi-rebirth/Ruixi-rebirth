@@ -1,4 +1,13 @@
-hi
-
-[Ruixi-rebirth](https://ruixi2fp.top)
-
+|  语言      |  百分比  |
+|  Shell     |  19.00%  |
+|  Nix       |  19.00%  |
+|  C         |  11.00%  |
+|  Rust      |  7.00%   |
+|  Python    |  7.00%   |
+|  HTML      |  7.00%   |
+|  Go        |  7.00%   |
+|  Notebook  |  3.00%   |
+|  Markdown  |  3.00%   |
+|  Lua       |  3.00%   |
+|  Jupyter   |  3.00%   |
+|  CSS       |  3.00%   |
