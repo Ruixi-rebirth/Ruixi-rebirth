@@ -18,7 +18,7 @@ jobs:
 
       - name: Update README.md
         run: |
-          if update > README.md; then
+          if ./update > README.md; then
             git config --local user.name "github-actions"
             git config --local user.email "action@github.com"
             git add README.md
