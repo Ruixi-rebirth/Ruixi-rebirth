@@ -20,10 +20,7 @@
       </tr>
       <tr>
         <td>Stargazers</td>
-
-        <td>519</td>
-
-
+        <td>521</td>
       </tr>
       <tr>
         <td>Forks</td>
@@ -35,9 +32,7 @@
       </tr>
       <tr>
         <td>Commits</td>
-
-        <td>1702</td>
-
+        <td>1704</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -60,9 +55,8 @@
         </a></td>
       </tr>
     </table></td>
-
-    <td><table><tr><td>Shell</td><td>61.23%</td></tr><tr><td>CSS</td><td>10.35%</td></tr><tr><td>Nix</td><td>8.23%</td></tr><tr><td>SCSS</td><td>6.02%</td></tr><tr><td>HTML</td><td>5.13%</td></tr><tr><td>Lua</td><td>3.4%</td></tr><tr><td>Python</td><td>2.6%</td></tr><tr><td>QML</td><td>2.04%</td></tr><tr><td>TypeScript</td><td>0.66%</td></tr><tr><td>Markdown</td><td>0.11%</td></tr></table></td>
+    <td><table><tr><td>Shell</td><td>61.23%</td></tr><tr><td>CSS</td><td>10.34%</td></tr><tr><td>Nix</td><td>8.23%</td></tr><tr><td>SCSS</td><td>6.02%</td></tr><tr><td>HTML</td><td>5.13%</td></tr><tr><td>Lua</td><td>3.41%</td></tr><tr><td>Python</td><td>2.6%</td></tr><tr><td>QML</td><td>2.04%</td></tr><tr><td>TypeScript</td><td>0.66%</td></tr><tr><td>Markdown</td><td>0.11%</td></tr></table></td>
   </tr>
 </table>
 
-<sub>Last updated: 2023-06-19 16:06:25 UTC</sub>
+<sub>Last updated: 2023-06-20 01:37:28 UTC</sub>
