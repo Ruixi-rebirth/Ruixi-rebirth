@@ -20,19 +20,19 @@
       </tr>
       <tr>
         <td>Stargazers</td>
-        <td>671</td>
+        <td>694</td>
       </tr>
       <tr>
         <td>Forks</td>
-        <td>55</td>
+        <td>59</td>
       </tr>
       <tr>
         <td>Contributed to</td>
-        <td>37</td>
+        <td>35</td>
       </tr>
       <tr>
         <td>Commits</td>
-        <td>1660</td>
+        <td>1661</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -40,23 +40,23 @@
       </tr>
       <tr>
         <td>Pull requests</td>
-        <td>122</td>
+        <td>123</td>
       </tr>
       <tr>
         <td>Followers</td>
         <td><a href="https://github.com/Ruixi-rebirth?tab=followers">
-          122
+          128
         </a></td>
       </tr>
       <tr>
         <td>Following</td>
         <td><a href="https://github.com/Ruixi-rebirth?tab=following">
-          69
+          72
         </a></td>
       </tr>
     </table></td>
-    <td><table><tr><td>Shell</td><td>56.24%</td></tr><tr><td>HTML</td><td>10.26%</td></tr><tr><td>CSS</td><td>9.47%</td></tr><tr><td>Nix</td><td>8.93%</td></tr><tr><td>SCSS</td><td>5.51%</td></tr><tr><td>Lua</td><td>4.37%</td></tr><tr><td>Python</td><td>2.38%</td></tr><tr><td>QML</td><td>1.86%</td></tr><tr><td>TypeScript</td><td>0.6%</td></tr><tr><td>Markdown</td><td>0.1%</td></tr></table></td>
+    <td><table><tr><td>Shell</td><td>56.24%</td></tr><tr><td>HTML</td><td>10.26%</td></tr><tr><td>CSS</td><td>9.47%</td></tr><tr><td>Nix</td><td>8.94%</td></tr><tr><td>SCSS</td><td>5.51%</td></tr><tr><td>Lua</td><td>4.37%</td></tr><tr><td>Python</td><td>2.38%</td></tr><tr><td>QML</td><td>1.86%</td></tr><tr><td>TypeScript</td><td>0.6%</td></tr><tr><td>Markdown</td><td>0.1%</td></tr></table></td>
   </tr>
 </table>
 
-<sub>Last updated: 2023-11-01 00:19:59 UTC</sub>
+<sub>Last updated: 2023-12-04 00:20:32 UTC</sub>
