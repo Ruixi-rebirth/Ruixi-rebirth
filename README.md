@@ -9,7 +9,7 @@
       <tr>
         <td>Repositories</td>
         <td><a href="https://github.com/Ruixi-rebirth?tab=repositories">
-          22
+          23
         </a></td>
       </tr>
       <tr>
@@ -20,7 +20,7 @@
       </tr>
       <tr>
         <td>Stargazers</td>
-        <td>692</td>
+        <td>695</td>
       </tr>
       <tr>
         <td>Forks</td>
@@ -32,7 +32,7 @@
       </tr>
       <tr>
         <td>Commits</td>
-        <td>1661</td>
+        <td>1667</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -55,8 +55,8 @@
         </a></td>
       </tr>
     </table></td>
-    <td><table><tr><td>Shell</td><td>56.24%</td></tr><tr><td>HTML</td><td>10.26%</td></tr><tr><td>CSS</td><td>9.47%</td></tr><tr><td>Nix</td><td>8.94%</td></tr><tr><td>SCSS</td><td>5.51%</td></tr><tr><td>Lua</td><td>4.37%</td></tr><tr><td>Python</td><td>2.38%</td></tr><tr><td>QML</td><td>1.86%</td></tr><tr><td>TypeScript</td><td>0.6%</td></tr><tr><td>Markdown</td><td>0.1%</td></tr></table></td>
+    <td><table><tr><td>Shell</td><td>56.24%</td></tr><tr><td>HTML</td><td>10.26%</td></tr><tr><td>CSS</td><td>9.47%</td></tr><tr><td>Nix</td><td>8.93%</td></tr><tr><td>SCSS</td><td>5.51%</td></tr><tr><td>Lua</td><td>4.37%</td></tr><tr><td>Python</td><td>2.38%</td></tr><tr><td>QML</td><td>1.86%</td></tr><tr><td>TypeScript</td><td>0.6%</td></tr><tr><td>Markdown</td><td>0.1%</td></tr></table></td>
   </tr>
 </table>
 
-<sub>Last updated: 2023-12-05 00:20:10 UTC</sub>
+<sub>Last updated: 2023-12-11 07:58:24 UTC</sub>
