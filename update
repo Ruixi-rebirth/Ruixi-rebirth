@@ -22,7 +22,7 @@ def create_query():
         gists { totalCount }
         issues { totalCount }
         pullRequests { totalCount }
-        repositories(first: 100, isFork: false, privacy: PUBLIC) {
+        repositories(first: 100, isFork: false) {
           totalCount
           nodes {
             forkCount
@@ -36,7 +36,7 @@ def create_query():
             viewerPermission
           }
         }
-        repositoriesContributedTo(privacy: PUBLIC) {
+        repositoriesContributedTo() {
           totalCount
         }
       }
