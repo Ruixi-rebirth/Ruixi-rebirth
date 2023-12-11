@@ -22,7 +22,7 @@ def create_query():
         gists { totalCount }
         issues { totalCount }
         pullRequests { totalCount }
-        repositories(first: 100, isFork: false) {
+        repositories(first: 100, isFork: true) {
           totalCount
           nodes {
             forkCount
