@@ -31,7 +31,7 @@ query = """
     gists { totalCount }
     issues { totalCount }
     pullRequests { totalCount }
-    repositories(first: 100, isFork: false, privacy: PUBLIC) {
+    repositories(first: 100, isFork: false, privacy: ALL) {
       totalCount
       nodes {
         forkCount
@@ -45,7 +45,7 @@ query = """
         viewerPermission
       }
     }
-    repositoriesContributedTo(privacy: PUBLIC) {
+    repositoriesContributedTo(privacy: ALL) {
       totalCount
     }
   }
