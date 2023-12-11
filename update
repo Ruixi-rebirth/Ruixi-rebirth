@@ -86,36 +86,38 @@ def compile_readme(data, commits_count):
 
     total_size = sum(langs.values())
 
+    # 使用 Markdown 格式化统计和语言使用信息
     readme = """
-    <table>
-      <tr align="center">
-        <td><b>Statistics</b></td>
-        <td><b>Languages</b></td>
-      </tr>
-      <tr valign="top">
-        <td>
-          <table>
-            <tr><td>Repositories</td><td>{repo_count}</td></tr>
-            <tr><td>Gists</td><td>{gists_count}</td></tr>
-            <tr><td>Stargazers</td><td>{stars}</td></tr>
-            <tr><td>Forks</td><td>{forks}</td></tr>
-            <tr><td>Contributed to</td><td>{contrib_count}</td></tr>
-            <tr><td>Commits</td><td>{commits}</td></tr>
-            <tr><td>Issues</td><td>{issues_count}</td></tr>
-            <tr><td>Pull requests</td><td>{prs_count}</td></tr>
-            <tr><td>Followers</td><td>{followers_count}</td></tr>
-            <tr><td>Following</td><td>{following_count}</td></tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            {langs_rows}
-          </table>
-        </td>
-      </tr>
-    </table>
-    <sub>Last updated: {last_updated}</sub>
-    """.format(
+<table>
+  <tr align="center">
+    <td><b>Statistics</b></td>
+    <td><b>Languages</b></td>
+  </tr>
+  <tr valign="top">
+    <td>
+      <table>
+        <tr><td>Repositories</td><td>{repo_count}</td></tr>
+        <tr><td>Gists</td><td>{gists_count}</td></tr>
+        <tr><td>Stargazers</td><td>{stars}</td></tr>
+        <tr><td>Forks</td><td>{forks}</td></tr>
+        <tr><td>Contributed to</td><td>{contrib_count}</td></tr>
+        <tr><td>Commits</td><td>{commits}</td></tr>
+        <tr><td>Issues</td><td>{issues_count}</td></tr>
+        <tr><td>Pull requests</td><td>{prs_count}</td></tr>
+        <tr><td>Followers</td><td>{followers_count}</td></tr>
+        <tr><td>Following</td><td>{following_count}</td></tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        {langs_rows}
+      </table>
+    </td>
+  </tr>
+</table>
+
+<sub>Last updated: {last_updated}</sub>
+""".format(
         repo_count=user["repositories"]["totalCount"],
         gists_count=user["gists"]["totalCount"],
         contrib_count=user["repositoriesContributedTo"]["totalCount"],
