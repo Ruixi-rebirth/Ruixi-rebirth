@@ -36,7 +36,7 @@ def create_query():
             viewerPermission
           }
         }
-        repositoriesContributedTo() {
+        repositoriesContributedTo(privacy: PUBLIC) {
           totalCount
         }
       }
