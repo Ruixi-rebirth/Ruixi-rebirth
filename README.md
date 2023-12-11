@@ -1,1 +1,39 @@
-{'data': {'issues': {'issueCount': 23}, 'prs': {'issueCount': 123}, 'user': {'followers': {'totalCount': 128}, 'following': {'totalCount': 72}, 'gists': {'totalCount': 0}, 'issues': {'totalCount': 23}, 'pullRequests': {'totalCount': 124}, 'repositories': {'totalCount': 23, 'nodes': [{'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'HTML'}, 'size': 137200}, {'node': {'name': 'SCSS'}, 'size': 127010}, {'node': {'name': 'TypeScript'}, 'size': 73764}, {'node': {'name': 'Shell'}, 'size': 104}, {'node': {'name': 'Dockerfile'}, 'size': 2692}]}, 'stargazerCount': 3, 'viewerPermission': 'ADMIN'}, {'forkCount': 2, 'languages': {'edges': [{'node': {'name': 'Shell'}, 'size': 4312844}, {'node': {'name': 'Python'}, 'size': 99399}, {'node': {'name': 'CSS'}, 'size': 54711}, {'node': {'name': 'Makefile'}, 'size': 1357}, {'node': {'name': 'Roff'}, 'size': 5086}]}, 'stargazerCount': 9, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Lua'}, 'size': 52512}]}, 'stargazerCount': 4, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Shell'}, 'size': 2454413}, {'node': {'name': 'Python'}, 'size': 112686}, {'node': {'name': 'CSS'}, 'size': 1039295}, {'node': {'name': 'Lua'}, 'size': 51050}, {'node': {'name': 'Perl'}, 'size': 9310}, {'node': {'name': 'JavaScript'}, 'size': 4767}, {'node': {'name': 'SCSS'}, 'size': 545192}, {'node': {'name': 'QML'}, 'size': 227402}]}, 'stargazerCount': 7, 'viewerPermission': 'ADMIN'}, {'forkCount': 15, 'languages': {'edges': [{'node': {'name': 'CSS'}, 'size': 61503}, {'node': {'name': 'Shell'}, 'size': 34506}, {'node': {'name': 'Lua'}, 'size': 72653}, {'node': {'name': 'Python'}, 'size': 73867}, {'node': {'name': 'HTML'}, 'size': 432510}]}, 'stargazerCount': 184, 'viewerPermission': 'ADMIN'}, {'forkCount': 36, 'languages': {'edges': [{'node': {'name': 'Nix'}, 'size': 897714}, {'node': {'name': 'Shell'}, 'size': 27664}, {'node': {'name': 'Haskell'}, 'size': 118}, {'node': {'name': 'Lua'}, 'size': 213912}, {'node': {'name': 'Nushell'}, 'size': 43}]}, 'stargazerCount': 432, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': []}, 'stargazerCount': 5, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': []}, 'stargazerCount': 2, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'CSS'}, 'size': 218}]}, 'stargazerCount': 2, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Shell'}, 'size': 708}, {'node': {'name': 'Jupyter Notebook'}, 'size': 3136}]}, 'stargazerCount': 4, 'viewerPermission': 'ADMIN'}, {'forkCount': 4, 'languages': {'edges': [{'node': {'name': 'Shell'}, 'size': 494}]}, 'stargazerCount': 24, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Shell'}, 'size': 9550}]}, 'stargazerCount': 2, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': []}, 'stargazerCount': 0, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Nix'}, 'size': 12808}]}, 'stargazerCount': 1, 'viewerPermission': 'ADMIN'}, {'forkCount': 1, 'languages': {'edges': [{'node': {'name': 'Nix'}, 'size': 33926}]}, 'stargazerCount': 3, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Nix'}, 'size': 604}]}, 'stargazerCount': 0, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': []}, 'stargazerCount': 0, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Markdown'}, 'size': 12806}, {'node': {'name': 'Nix'}, 'size': 862}, {'node': {'name': 'HTML'}, 'size': 3074}, {'node': {'name': 'Python'}, 'size': 4349}]}, 'stargazerCount': 0, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Nix'}, 'size': 24457}, {'node': {'name': 'Lua'}, 'size': 70001}, {'node': {'name': 'Shell'}, 'size': 9206}]}, 'stargazerCount': 0, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'Go'}, 'size': 4963}]}, 'stargazerCount': 1, 'viewerPermission': 'ADMIN'}, {'forkCount': 1, 'languages': {'edges': [{'node': {'name': 'Nix'}, 'size': 119494}, {'node': {'name': 'Shell'}, 'size': 10797}]}, 'stargazerCount': 12, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': [{'node': {'name': 'HTML'}, 'size': 678839}, {'node': {'name': 'Lua'}, 'size': 72653}]}, 'stargazerCount': 0, 'viewerPermission': 'ADMIN'}, {'forkCount': 0, 'languages': {'edges': []}, 'stargazerCount': 0, 'viewerPermission': 'ADMIN'}]}, 'repositoriesContributedTo': {'totalCount': 35}}}}
+
+    <table>
+      <tr align="center">
+        <td><b>Statistics</b></td>
+        <td><b>Languages</b></td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <table>
+            <tr><td>Repositories</td><td>23</td></tr>
+            <tr><td>Gists</td><td>0</td></tr>
+            <tr><td>Stargazers</td><td>695</td></tr>
+            <tr><td>Forks</td><td>59</td></tr>
+            <tr><td>Contributed to</td><td>35</td></tr>
+            <tr><td>Commits</td><td>1670</td></tr>
+            <tr><td>Issues</td><td>23</td></tr>
+            <tr><td>Pull requests</td><td>123</td></tr>
+            <tr><td>Followers</td><td>128</td></tr>
+            <tr><td>Following</td><td>72</td></tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr><td>Shell</td><td>56.23%</td></tr>
+<tr><td>HTML</td><td>10.26%</td></tr>
+<tr><td>CSS</td><td>9.47%</td></tr>
+<tr><td>Nix</td><td>8.93%</td></tr>
+<tr><td>SCSS</td><td>5.51%</td></tr>
+<tr><td>Lua</td><td>4.37%</td></tr>
+<tr><td>Python</td><td>2.38%</td></tr>
+<tr><td>QML</td><td>1.86%</td></tr>
+<tr><td>TypeScript</td><td>0.6%</td></tr>
+<tr><td>Markdown</td><td>0.13%</td></tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <sub>Last updated: 2023-12-11 09:03:36 UTC</sub>
+    
