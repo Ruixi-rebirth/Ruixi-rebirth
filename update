@@ -96,16 +96,16 @@ def compile_readme(data, commits_count):
   <tr valign="top">
     <td>
       <table>
-        <tr><td>Repositories</td><td>{repo_count}</td></tr>
-        <tr><td>Gists</td><td>{gists_count}</td></tr>
+        <tr><td>Repositories</td><td><a href="https://github.com/Ruixi-rebirth?tab=repositories">{repo_count}</a></td></tr>
+        <tr><td>Gists</td><td><a href="https://gist.github.com/Ruixi-rebirth">{gists_count}</a></td></tr>
         <tr><td>Stargazers</td><td>{stars}</td></tr>
         <tr><td>Forks</td><td>{forks}</td></tr>
         <tr><td>Contributed to</td><td>{contrib_count}</td></tr>
         <tr><td>Commits</td><td>{commits}</td></tr>
         <tr><td>Issues</td><td>{issues_count}</td></tr>
         <tr><td>Pull requests</td><td>{prs_count}</td></tr>
-        <tr><td>Followers</td><td>{followers_count}</td></tr>
-        <tr><td>Following</td><td>{following_count}</td></tr>
+        <tr><td>Followers</td><td><a href="https://github.com/Ruixi-rebirth?tab=followers">{followers_count}</a></td></tr>
+        <tr><td>Following</td><td><a href="https://github.com/Ruixi-rebirth?tab=following">{following_count}</a></td></tr>
       </table>
     </td>
     <td>
