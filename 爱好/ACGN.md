@@ -1,5 +1,5 @@
 ---
-slug: ACGN 
+slug: ACGN
 template:
   sidebar:
     collapsed: true
@@ -10,4 +10,3 @@ template:
 ```query
 path:./*
 ```
-

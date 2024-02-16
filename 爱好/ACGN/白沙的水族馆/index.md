@@ -1,7 +1,7 @@
 ---
 title: "白沙的水族馆"
 date: 2021-11-25T16:02:33+08:00
-slug: 
+slug:
 template:
   layout:
     base:

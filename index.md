@@ -1,7 +1,7 @@
 ---
 page:
   description: |
-    Personal website of Ruixi-rebirth. 
+    Personal website of Ruixi-rebirth.
 template:
   name: /templates/home
   layout:

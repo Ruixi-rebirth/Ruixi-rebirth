@@ -13,4 +13,3 @@ template:
     <iframe src="https://www.youtube.com/embed/NLwC7eu-Zfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; width: 100%; height: 100%; top: 0;">
     </iframe>
 </p>
-
