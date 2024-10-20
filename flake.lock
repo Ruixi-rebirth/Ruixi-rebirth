@@ -159,18 +159,17 @@
         "flake-root": "flake-root_2",
         "haskell-flake": "haskell-flake_2",
         "heist-extra": "heist-extra_2",
-        "nix-health": "nix-health",
         "nixpkgs": "nixpkgs_2",
         "systems": "systems_2",
         "treefmt-nix": "treefmt-nix_2",
         "unionmount": "unionmount_2"
       },
       "locked": {
-        "lastModified": 1727887125,
-        "narHash": "sha256-SBnUyYNDz3PYB9b71GDP1SAOMLPAALdbzqWgb8hdVSA=",
+        "lastModified": 1729202851,
+        "narHash": "sha256-Kd56DefIoCqt9MhyNkKoJJypcLXlJrSdYn4r5WNFucI=",
         "owner": "srid",
         "repo": "emanote",
-        "rev": "94cbcba6ffdcfd9fbcae2d06ce073dd0b4ad74c7",
+        "rev": "1953f5aac8a21ea553829a5fbcfb7bf5b792baad",
         "type": "github"
       },
       "original": {
@@ -383,23 +382,6 @@
         "type": "github"
       }
     },
-    "nix-health": {
-      "locked": {
-        "dir": "module",
-        "lastModified": 1716931776,
-        "narHash": "sha256-M4YqLtNAkj8pqG6dp7wHKz9EOecB3bWHp7WHyXIlMMc=",
-        "owner": "juspay",
-        "repo": "nix-health",
-        "rev": "2f8d8dc30121923192c78a8f5152c5c89fdf1809",
-        "type": "github"
-      },
-      "original": {
-        "dir": "module",
-        "owner": "juspay",
-        "repo": "nix-health",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1704842529,
@@ -572,11 +554,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1727984844,
-        "narHash": "sha256-xpRqITAoD8rHlXQafYZOLvUXCF6cnZkPfoq67ThN0Hc=",
+        "lastModified": 1729242555,
+        "narHash": "sha256-6jWSWxv2crIXmYSEb3LEVsFkCkyVHNllk61X4uhqfCs=",
         "owner": "numtide",
         "repo": "treefmt-nix",
-        "rev": "4446c7a6fc0775df028c5a3f6727945ba8400e64",
+        "rev": "d986489c1c757f6921a48c1439f19bfb9b8ecab5",
         "type": "github"
       },
       "original": {
