@@ -9,10 +9,10 @@
       <table>
         <tr><td>Repositories</td><td><a href="https://github.com/Ruixi-rebirth?tab=repositories">39</a></td></tr>
         <tr><td>Gists</td><td><a href="https://gist.github.com/Ruixi-rebirth">0</a></td></tr>
-        <tr><td>Stargazers</td><td>846</td></tr>
+        <tr><td>Stargazers</td><td>850</td></tr>
         <tr><td>Forks</td><td>59</td></tr>
         <tr><td>Contributed to</td><td>9</td></tr>
-        <tr><td>Commits</td><td>1015</td></tr>
+        <tr><td>Commits</td><td>1041</td></tr>
         <tr><td>Issues</td><td>24</td></tr>
         <tr><td>Pull requests</td><td>145</td></tr>
         <tr><td>Followers</td><td><a href="https://github.com/Ruixi-rebirth?tab=followers">173</a></td></tr>
@@ -21,10 +21,10 @@
     </td>
     <td>
       <table>
-        <tr><td>Shell</td><td>55.79%</td></tr>
+        <tr><td>Shell</td><td>55.78%</td></tr>
 <tr><td>HTML</td><td>10.39%</td></tr>
 <tr><td>CSS</td><td>9.42%</td></tr>
-<tr><td>Nix</td><td>9.09%</td></tr>
+<tr><td>Nix</td><td>9.11%</td></tr>
 <tr><td>SCSS</td><td>5.48%</td></tr>
 <tr><td>Lua</td><td>3.77%</td></tr>
 <tr><td>Python</td><td>2.36%</td></tr>
@@ -36,4 +36,4 @@
   </tr>
 </table>
 
-<sub>Last updated: 2024-11-03 00:27:43 UTC</sub>
+<sub>Last updated: 2024-11-11 00:25:51 UTC</sub>
