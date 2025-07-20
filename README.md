@@ -9,13 +9,13 @@
       <table>
         <tr><td>Repositories</td><td><a href="https://github.com/Ruixi-rebirth?tab=repositories">39</a></td></tr>
         <tr><td>Gists</td><td><a href="https://gist.github.com/Ruixi-rebirth">0</a></td></tr>
-        <tr><td>Stargazers</td><td>943</td></tr>
-        <tr><td>Forks</td><td>66</td></tr>
+        <tr><td>Stargazers</td><td>946</td></tr>
+        <tr><td>Forks</td><td>67</td></tr>
         <tr><td>Contributed to</td><td>3</td></tr>
-        <tr><td>Commits</td><td>1081</td></tr>
+        <tr><td>Commits</td><td>1083</td></tr>
         <tr><td>Issues</td><td>24</td></tr>
         <tr><td>Pull requests</td><td>154</td></tr>
-        <tr><td>Followers</td><td><a href="https://github.com/Ruixi-rebirth?tab=followers">194</a></td></tr>
+        <tr><td>Followers</td><td><a href="https://github.com/Ruixi-rebirth?tab=followers">191</a></td></tr>
         <tr><td>Following</td><td><a href="https://github.com/Ruixi-rebirth?tab=following">76</a></td></tr>
       </table>
     </td>
@@ -36,4 +36,4 @@
   </tr>
 </table>
 
-<sub>Last updated: 2025-07-20 00:35:26 UTC</sub>
+<sub>Last updated: 2025-08-11 00:33:46 UTC</sub>
