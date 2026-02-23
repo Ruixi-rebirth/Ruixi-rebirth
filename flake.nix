@@ -1,43 +1,44 @@
 {
+  nixConfig = {
+    extra-substituters = "https://cache.nixos.asia/oss";
+    extra-trusted-public-keys = "oss:KO872wNJkCDgmGN3xy9dT89WAhvv13EiKncTtHDItVU=";
+  };
+
   inputs = {
     emanote.url = "github:srid/emanote";
+    emanote.inputs.emanote-template.follows = "";
     nixpkgs.follows = "emanote/nixpkgs";
     flake-parts.follows = "emanote/flake-parts";
-    treefmt-nix.url = "github:numtide/treefmt-nix";
-    flake-root.url = "github:srid/flake-root";
   };
 
   outputs = inputs@{ self, flake-parts, nixpkgs, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = nixpkgs.lib.systems.flakeExposed;
-      imports = [
-        inputs.emanote.flakeModule
-        inputs.treefmt-nix.flakeModule
-        inputs.flake-root.flakeModule
-      ];
-      perSystem = { self', pkgs, system, config, ... }: {
-        treefmt.config = {
-          inherit (config.flake-root) projectRootFile;
-          package = pkgs.treefmt;
-          programs.nixpkgs-fmt.enable = true;
-          programs.prettier.enable = true;
-        };
-
+      imports = [ inputs.emanote.flakeModule ];
+      perSystem = { self', pkgs, system, ... }: {
         emanote = {
-          sites."default" = {
-            layers = [ ./. ];
-            layersString = [ "." ];
-            port = 7000;
-            baseUrl = "/"; # Change to "/" (or remove it entirely) if using CNAME
-            prettyUrls = true;
+          # By default, the 'emanote' flake input is used.
+          # package = inputs.emanote.packages.${system}.default;
+          sites = rec {
+            # For available options, see:
+            # https://github.com/srid/emanote/blob/master/nix/modules/flake-parts/flake-module/site/default.nix
+            default = {
+              layers = [{ path = ./.; pathString = "."; }];
+              # port = 8080;
+            };
+            # Optimized for deploying to https://<user>.github.io/<repo-name> URLs
+            github-io = default // {
+              check = false;
+              extraConfig.template.baseUrl = "/emanote-template/";
+            };
           };
         };
         devShells.default = pkgs.mkShell {
           buildInputs = [
-            inputs.emanote.packages.${pkgs.system}.emanote
+            pkgs.nixpkgs-fmt
           ];
         };
-        formatter = config.treefmt.build.wrapper;
+        formatter = pkgs.nixpkgs-fmt;
       };
     };
 }
