@@ -11,34 +11,66 @@
     flake-parts.follows = "emanote/flake-parts";
   };
 
-  outputs = inputs@{ self, flake-parts, nixpkgs, ... }:
+  outputs =
+    inputs@{
+      self,
+      flake-parts,
+      nixpkgs,
+      ...
+    }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = nixpkgs.lib.systems.flakeExposed;
       imports = [ inputs.emanote.flakeModule ];
-      perSystem = { self', pkgs, system, ... }: {
-        emanote = {
-          # By default, the 'emanote' flake input is used.
-          # package = inputs.emanote.packages.${system}.default;
-          sites = rec {
-            # For available options, see:
-            # https://github.com/srid/emanote/blob/master/nix/modules/flake-parts/flake-module/site/default.nix
-            default = {
-              layers = [{ path = ./.; pathString = "."; }];
-              # port = 8080;
-            };
-            # Optimized for deploying to https://<user>.github.io/<repo-name> URLs
-            github-io = default // {
-              check = false;
-              extraConfig.template.baseUrl = "/emanote-template/";
+      perSystem =
+        {
+          self',
+          pkgs,
+          system,
+          lib,
+          ...
+        }:
+        {
+          emanote = {
+            # By default, the 'emanote' flake input is used.
+            # package = inputs.emanote.packages.${system}.default;
+            sites = rec {
+              # For available options, see:
+              # https://github.com/srid/emanote/blob/master/nix/modules/flake-parts/flake-module/site/default.nix
+              default = {
+                layers = [
+                  {
+                    path = pkgs.lib.cleanSourceWith {
+                      src = ./.;
+                      filter =
+                        path: type:
+                        let
+                          baseName = baseNameOf path;
+                          isTopLevel = dirOf path == toString ./.;
+                        in
+                        !(lib.hasSuffix "flake.nix" path)
+                        && !(lib.hasSuffix "flake.lock" path)
+                        && !(lib.hasSuffix "update" path)
+                        && !(isTopLevel && lib.hasPrefix "." baseName)
+                        && !(isTopLevel && baseName == "README.md");
+                    };
+                    pathString = ".";
+                  }
+                ];
+                # port = 8080;
+              };
+              # Optimized for deploying to https://<user>.github.io/<repo-name> URLs
+              github-io = default // {
+                check = false;
+                extraConfig.template.baseUrl = "/emanote-template/";
+              };
             };
           };
+          devShells.default = pkgs.mkShell {
+            buildInputs = [
+              pkgs.nixpkgs-fmt
+            ];
+          };
+          formatter = pkgs.nixpkgs-fmt;
         };
-        devShells.default = pkgs.mkShell {
-          buildInputs = [
-            pkgs.nixpkgs-fmt
-          ];
-        };
-        formatter = pkgs.nixpkgs-fmt;
-      };
     };
 }
