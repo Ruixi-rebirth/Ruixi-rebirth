@@ -93,26 +93,33 @@ def compile_projects(data, featured_names):
     rows = []
     for p in projects:
         # 获取项目占比前三的语言，并映射至 Shields.io 图标
-        repo_langs = sorted(p["languages"]["edges"], key=lambda x: x["size"], reverse=True)[:3]
+        repo_langs = sorted(
+            p["languages"]["edges"], key=lambda x: x["size"], reverse=True
+        )[:3]
         badges = []
         for l in repo_langs:
             name = l["node"]["name"]
             # 默认使用语言名称的小写作为图标名 (Simple Icons 规范)
             logo = name.lower()
-            
+
             # 特殊处理：部分语言在 GitHub 的名称与 Simple Icons 里的 ID 不一致
             # Nix 在图标库中称为 nixos
-            if name == "Nix": logo = "nixos"
+            if name == "Nix":
+                logo = "nixos"
             # Shell 在图标库中称为 gnubash
-            elif name == "Shell": logo = "gnubash"
+            elif name == "Shell":
+                logo = "gnubash"
             # SCSS 在图标库中通常关联为 sass
-            elif name == "SCSS": logo = "sass"
-            
-            badges.append(f'<img src="https://img.shields.io/badge/-{name}-333?style=flat-square&logo={logo}&logoColor=white" alt="{name}">')
-        
+            elif name == "SCSS":
+                logo = "sass"
+
+            badges.append(
+                f'<img src="https://img.shields.io/badge/-{name}-333?style=flat-square&logo={logo}&logoColor=white" alt="{name}">'
+            )
+
         lang_display = " ".join(badges)
         desc = p["description"] if p["description"] else "No description provided."
-        
+
         rows.append(
             f"""
   <tr>
@@ -147,35 +154,91 @@ def compile_projects(data, featured_names):
 def compile_readme(data, commits_count):
     """构建总览统计数据和语言分布板块"""
     user = data["user"]
-    
+
     # 汇总所有 Admin 权限仓库的 Star 和 Fork 总数
-    forks = sum(repo["forkCount"] for repo in user["repositories"]["nodes"] if repo["viewerPermission"] == "ADMIN")
-    stars = sum(repo["stargazerCount"] for repo in user["repositories"]["nodes"] if repo["viewerPermission"] == "ADMIN")
+    forks = sum(
+        repo["forkCount"]
+        for repo in user["repositories"]["nodes"]
+        if repo["viewerPermission"] == "ADMIN"
+    )
+    stars = sum(
+        repo["stargazerCount"]
+        for repo in user["repositories"]["nodes"]
+        if repo["viewerPermission"] == "ADMIN"
+    )
 
     # 汇总全仓库语言使用占比
     langs = {}
+    # 定义要排除的前端及样式语言
+    exclude_langs = {
+        "HTML",
+        "CSS",
+        "SCSS",
+        "Sass",
+        "Less",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "GLSL",
+    }
+    # 定义要排除的仓库名
+    exclude_repos = {
+        "ruixi-overlay",
+        "i3-dotfiles",
+        "dotfiles",
+        "sway-dotfiles",
+    }
+
     for repo in user["repositories"]["nodes"]:
+        if repo["name"] in exclude_repos:
+            continue
+
         for lang in repo["languages"]["edges"]:
             name = lang["node"]["name"]
+            if name in exclude_langs:
+                continue
             size = lang["size"]
             langs[name] = langs.get(name, 0) + size
     total_size = sum(langs.values())
 
     # 准备左侧基础统计列表
     stats_list = [
-        ("🚀 Repositories", f"<a href='https://github.com/Ruixi-rebirth?tab=repositories'>{user['repositories']['totalCount']}</a>"),
-        ("📜 Gists", f"<a href='https://gist.github.com/Ruixi-rebirth'>{user['gists']['totalCount']}</a>"),
+        (
+            "🚀 Repositories",
+            f"<a href='https://github.com/Ruixi-rebirth?tab=repositories'>{user['repositories']['totalCount']}</a>",
+        ),
+        (
+            "📜 Gists",
+            f"<a href='https://gist.github.com/Ruixi-rebirth'>{user['gists']['totalCount']}</a>",
+        ),
         ("⭐ Stargazers", f"{stars}"),
         ("🍴 Forks", f"{forks}"),
         ("🤝 Contributed to", f"{user['repositoriesContributedTo']['totalCount']}"),
         ("📈 Commits", f"{commits_count}"),
-        ("📋 Issues", f"{data['issues_all']['issueCount']} ({data['issues_closed']['issueCount']} closed)"),
-        ("🔀 Pull requests", f"{data['prs_all']['issueCount']} ({data['prs_merged']['issueCount']} merged)"),
-        ("👥 Followers", f"<a href='https://github.com/Ruixi-rebirth?tab=followers'>{user['followers']['totalCount']}</a>"),
-        ("👤 Following", f"<a href='https://github.com/Ruixi-rebirth?tab=following'>{user['following']['totalCount']}</a>"),
+        (
+            "📋 Issues",
+            f"{data['issues_all']['issueCount']} ({data['issues_closed']['issueCount']} closed)",
+        ),
+        (
+            "🔀 Pull requests",
+            f"{data['prs_all']['issueCount']} ({data['prs_merged']['issueCount']} merged)",
+        ),
+        (
+            "👥 Followers",
+            f"<a href='https://github.com/Ruixi-rebirth?tab=followers'>{user['followers']['totalCount']}</a>",
+        ),
+        (
+            "👤 Following",
+            f"<a href='https://github.com/Ruixi-rebirth?tab=following'>{user['following']['totalCount']}</a>",
+        ),
     ]
-    
-    stats_rows = "\n".join([f"<tr><td>{label}</td><td align='right'><b>{val}</b></td></tr>" for label, val in stats_list])
+
+    stats_rows = "\n".join(
+        [
+            f"<tr><td>{label}</td><td align='right'><b>{val}</b></td></tr>"
+            for label, val in stats_list
+        ]
+    )
     stats_col = f"<table>{stats_rows}</table>"
 
     # 准备右侧 Top 10 语言分布图
@@ -185,7 +248,7 @@ def compile_readme(data, commits_count):
         percentage = round(size / total_size * 100, 2)
         bar = generate_bar(percentage, length=15)
         langs_rows.append(
-            f"<tr><td>{lang}</td><td align='right'><code>{bar}</code> <b>{percentage}%</b></td></tr>"
+            f"<tr><td>{lang}</td><td align='left'><code>{bar}</code><b>{percentage}%</b></td></tr>"
         )
     langs_col = f"<table>{''.join(langs_rows)}</table>"
 
@@ -208,12 +271,15 @@ def main():
     query = create_query()
     commits_count = fetch_commits_count()
     data = fetch_github_data(query)
-    
+
     # 渲染统计内容
     readme_stats = compile_readme(data, commits_count)
 
     # 渲染精选项目内容 (可在此列表添加更多仓库名)
-    featured_projects = ["flakes"]
+    featured_projects = [
+        "flakes",
+        "nvim-flake",
+    ]
     projects_content = compile_projects(data, featured_projects)
 
     with open("README.md", "r") as f:
@@ -221,16 +287,18 @@ def main():
 
     # 1. 更新统计板块 (STATS_START/END 标记之间)
     updated_content = re.sub(
-        r"<!-- STATS_START -->.*?<!-- STATS_END -->", 
-        f"<!-- STATS_START -->\n{readme_stats}\n<!-- STATS_END -->", 
-        content, flags=re.DOTALL
+        r"<!-- STATS_START -->.*?<!-- STATS_END -->",
+        f"<!-- STATS_START -->\n{readme_stats}\n<!-- STATS_END -->",
+        content,
+        flags=re.DOTALL,
     )
 
     # 2. 更新精选项目板块 (PROJECTS_START/END 标记之间)
     updated_content = re.sub(
-        r"<!-- PROJECTS_START -->.*?<!-- PROJECTS_END -->", 
-        f"<!-- PROJECTS_START -->\n{projects_content}\n<!-- PROJECTS_END -->", 
-        updated_content, flags=re.DOTALL
+        r"<!-- PROJECTS_START -->.*?<!-- PROJECTS_END -->",
+        f"<!-- PROJECTS_START -->\n{projects_content}\n<!-- PROJECTS_END -->",
+        updated_content,
+        flags=re.DOTALL,
     )
 
     # 3. 更新时间戳 (UTC+8 北京时间)
