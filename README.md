@@ -17,17 +17,17 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
     <th width="50%">💻 Languages</th>
   </tr>
   <tr valign="top">
-    <td><table><tr><td>🚀 Repositories</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=repositories'>41</a></b></td></tr>
+    <td><table><tr><td>🚀 Repositories</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=repositories'>42</a></b></td></tr>
 <tr><td>📜 Gists</td><td align='right'><b><a href='https://gist.github.com/Ruixi-rebirth'>0</a></b></td></tr>
-<tr><td>⭐ Stargazers</td><td align='right'><b>1002</b></td></tr>
+<tr><td>⭐ Stargazers</td><td align='right'><b>1003</b></td></tr>
 <tr><td>🍴 Forks</td><td align='right'><b>70</b></td></tr>
 <tr><td>🤝 Contributed to</td><td align='right'><b>3</b></td></tr>
-<tr><td>📈 Commits</td><td align='right'><b>1105</b></td></tr>
+<tr><td>📈 Commits</td><td align='right'><b>1150</b></td></tr>
 <tr><td>📋 Issues</td><td align='right'><b>25 (24 closed)</b></td></tr>
 <tr><td>🔀 Pull requests</td><td align='right'><b>156 (131 merged)</b></td></tr>
 <tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>203</a></b></td></tr>
 <tr><td>👤 Following</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=following'>76</a></b></td></tr></table></td>
-    <td><table><tr><td>Nix</td><td align='left'><code>█████████░░░░░░</code><b>60.06%</b></td></tr><tr><td>Lua</td><td align='left'><code>███░░░░░░░░░░░░</code><b>17.97%</b></td></tr><tr><td>Python</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.19%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.11%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>3.05%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>2.28%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.76%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.68%</b></td></tr><tr><td>Markdown</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.36%</b></td></tr><tr><td>Dockerfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.22%</b></td></tr></table></td>
+    <td><table><tr><td>Nix</td><td align='left'><code>█████████░░░░░░</code><b>59.8%</b></td></tr><tr><td>Lua</td><td align='left'><code>███░░░░░░░░░░░░</code><b>17.75%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.23%</b></td></tr><tr><td>Python</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.1%</b></td></tr><tr><td>Shell</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>3.53%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>2.25%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.75%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.67%</b></td></tr><tr><td>Markdown</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.36%</b></td></tr><tr><td>Dockerfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.22%</b></td></tr></table></td>
   </tr>
 </table>
 
@@ -46,11 +46,11 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
     </tr>
   </thead>
   <tbody>
-
+    
   <tr>
     <td width="35%">
       <a href="https://github.com/Ruixi-rebirth/flakes"><b>flakes</b></a><br>
-      <img src="https://img.shields.io/badge/-Nix-333?style=flat-square&logo=nixos&logoColor=white" alt="Nix"> <img src="https://img.shields.io/badge/-Shell-333?style=flat-square&logo=gnubash&logoColor=white" alt="Shell"> <img src="https://img.shields.io/badge/-Lua-333?style=flat-square&logo=lua&logoColor=white" alt="Lua">
+      <img src="https://img.shields.io/badge/-Nix-333?style=flat-square&logo=nixos&logoColor=white" alt="Nix"> <img src="https://img.shields.io/badge/-Shell-333?style=flat-square&logo=gnubash&logoColor=white" alt="Shell"> <img src="https://img.shields.io/badge/-Go-333?style=flat-square&logo=go&logoColor=white" alt="Go">
     </td>
     <td width="50%">My presonal NixOS config, etc.</td>
     <td width="15%" align="right">
@@ -76,4 +76,4 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
 
 ---
 
-Last updated: 2026-02-24 18:43:08 UTC+8
+Last updated: 2026-03-02 08:39:24 UTC+8
