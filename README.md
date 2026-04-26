@@ -19,7 +19,7 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
   <tr valign="top">
     <td><table><tr><td>🚀 Repositories</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=repositories'>43</a></b></td></tr>
 <tr><td>📜 Gists</td><td align='right'><b><a href='https://gist.github.com/Ruixi-rebirth'>0</a></b></td></tr>
-<tr><td>⭐ Stargazers</td><td align='right'><b>1017</b></td></tr>
+<tr><td>⭐ Stargazers</td><td align='right'><b>1018</b></td></tr>
 <tr><td>🍴 Forks</td><td align='right'><b>67</b></td></tr>
 <tr><td>🤝 Contributed to</td><td align='right'><b>6</b></td></tr>
 <tr><td>📈 Commits</td><td align='right'><b>1220</b></td></tr>
@@ -54,7 +54,7 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
     </td>
     <td width="50%">My presonal NixOS config, etc.</td>
     <td width="15%" align="right">
-      <b>⭐ 95</b><br>
+      <b>⭐ 96</b><br>
       <b>🍴 6</b>
     </td>
   </tr>
@@ -76,4 +76,4 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
 
 ---
 
-Last updated: 2026-04-26 08:53:06 UTC+8
+Last updated: 2026-04-27 08:53:18 UTC+8
