@@ -25,7 +25,7 @@ jobs:
         run: |
           nix --accept-flake-config build .#default -o ./_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
   deploy:
     environment:
       name: github-pages
