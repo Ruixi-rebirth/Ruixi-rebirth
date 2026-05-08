@@ -1,47 +1,59 @@
 <apply template="base">
+  <bind tag="bodyClass">min-h-screen overflow-y-scroll</bind>
   <bind tag="body-main">
-    <div class="container max-w-screen-md mx-auto mt-16 flex flex-col items-center justify-center px-4">
-      <bind tag="cardClass">rounded-2xl shadow-xl bg-white dark:bg-gray-800 </bind>
-      <bind tag="cardSmallClass">rounded-full bg-gray-50 dark:bg-gray-700 hover:shadow-lg hover:bg-white dark:hover:bg-gray-600 transition-all duration-200 </bind>
 
-      <!-- Main Profile Card -->
-      <div style="max-width: 28em;" class="${cardClass} px-8 py-12 flex flex-col items-center justify-center space-y-8 w-full">
-        <div class="w-32 h-32 flex-shrink-0">
+    <!-- Warm studio background -->
+    <div class="home-bg" aria-hidden="true">
+      <div class="mote m1"></div>
+      <div class="mote m2"></div>
+      <div class="mote m3"></div>
+      <div class="mote m4"></div>
+      <div class="mote m5"></div>
+    </div>
+
+    <div class="relative container max-w-screen-md mx-auto mt-24 flex flex-col items-center justify-center px-4">
+      <div class="home-card rounded-3xl px-8 py-14 flex flex-col items-center space-y-8 w-full" style="max-width: 26em;">
+
+        <!-- Avatar -->
+        <div class="relative w-28 h-28 flex-shrink-0">
+          <div class="home-avatar-ring"></div>
           <ema:metadata>
             <with var="template">
-              <img src="${value:iconUrl}" class="rounded-full object-cover shadow-md border-4 border-pink-50 dark:border-pink-900">
+              <img src="${value:iconUrl}" class="relative z-10 rounded-full object-cover w-full h-full" style="border: 1.5px solid rgba(255,182,193,0.4);">
             </with>
           </ema:metadata>
         </div>
 
-        <div class="text-center space-y-3">
-          <h1 class="text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight">Ruixi-rebirth</h1>
-          <div class="text-gray-400 dark:text-gray-500 text-xs font-serif">
-          </div>
+        <!-- Name & subtitle -->
+        <div class="text-center space-y-2">
+          <h1 style="font-weight: 300; font-size: 1.9rem; color: var(--home-title); letter-spacing: 0.1em;">
+            Ruixi-rebirth
+          </h1>
+          <div class="home-divider"></div>
+          <p style="color: var(--home-subtitle); font-size: 0.7rem; letter-spacing: 0.2em;">
+            dreaming · writing · wandering
+          </p>
         </div>
 
-        <div class="flex flex-row items-center justify-center space-x-4 w-full">
-          <!--
-          <a href="cv" class="px-6 py-2 bg-rose-400 text-white rounded-full font-semibold hover:bg-rose-300 transition-colors shadow-md" title="Curriculum Vitae">
-            CV
-          </a>
-          -->
+        <!-- Buttons -->
+        <div class="flex flex-row items-center justify-center space-x-4">
 
-          <a href="-/all" class="p-2 w-10 h-10 ${cardSmallClass} flex items-center justify-center text-gray-700 dark:text-gray-200" title="Public notes">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          <a href="-/all" class="home-icon-btn" title="Public notes">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width:1.15rem;height:1.15rem;">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                 d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
             </svg>
           </a>
-          <a class="p-2 w-10 h-10 ${cardSmallClass} flex items-center justify-center text-gray-700 dark:text-gray-200" href="https://github.com/Ruixi-rebirth" title="GitHub profile" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+
+          <a class="home-icon-btn" href="https://github.com/Ruixi-rebirth" title="GitHub" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1.15rem;height:1.15rem;">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
             </svg>
           </a>
+
         </div>
       </div>
-
     </div>
+
   </bind>
 </apply>
