@@ -25,7 +25,7 @@
 <div class="pl-2">
   <has-children>
     <details>
-      <summary class="index-tree-summary flex items-center my-1.5 space-x-2 justify-left">
+      <summary class="index-tree-summary flex items-center my-1.5 space-x-1 justify-left">
         <span class="flex-shrink-0"><icon /></span>
         <a class="${link-class} rounded-md px-2 py-1 truncate flex-1" title="${node:text}" href="${node:url}"
            onclick="event.stopPropagation()">
@@ -35,14 +35,14 @@
           <tree:childrenCount />
         </span>
       </summary>
-      <div class="ml-4">
+      <div class="ml-4 border-l border-gray-200 dark:border-gray-700">
         <children>
           <apply template="index-tree" />
         </children>
       </div>
     </details>
     <else />
-    <div class="flex items-center my-1.5 space-x-2 justify-left">
+    <div class="flex items-center my-1.5 space-x-1 justify-left">
       <span class="flex-shrink-0"><icon /></span>
       <a class="${link-class} rounded-md px-2 py-1 truncate flex-1" title="${node:text}" href="${node:url}">
         <node:text />

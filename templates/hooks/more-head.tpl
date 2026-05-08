@@ -34,6 +34,20 @@
     font-weight: 300;
   }
 
+  /* ── Sidebar tree: tighten spacing ── */
+  #sidebar .space-x-2 > :not(:first-child) { margin-inline-start: 0 !important; }
+  #sidebar a.flex-1 { padding-left: 0 !important; padding-right: 0 !important; }
+
+  /* ── Sidebar indent line ── */
+  #sidebar .emanote-tree-children {
+    border-left: 1px solid var(--color-gray-200);
+    margin-left: 0.75rem;
+    padding-left: 0.25rem;
+  }
+  .dark #sidebar .emanote-tree-children {
+    border-left-color: var(--color-gray-700);
+  }
+
   /* ── Index tree: reset summary defaults, rotate chevron ── */
   summary.index-tree-summary { list-style: none; cursor: pointer; }
   summary.index-tree-summary::-webkit-details-marker { display: none; }
