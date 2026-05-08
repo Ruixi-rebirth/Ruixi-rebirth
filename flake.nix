@@ -30,7 +30,21 @@
           ...
         }:
         {
-          emanote = {
+          emanote =
+            let
+              ttfDir = "${pkgs.maple-mono.NF-CN}/share/fonts/truetype";
+              maple-mono-fonts = pkgs.runCommand "maple-mono-nf-cn-woff2"
+                { nativeBuildInputs = [ pkgs.woff2 ]; }
+                ''
+                  mkdir -p $out
+                  for weight in Light LightItalic SemiBold SemiBoldItalic; do
+                    cp ${ttfDir}/MapleMono-NF-CN-''${weight}.ttf .
+                    woff2_compress MapleMono-NF-CN-''${weight}.ttf
+                    cp MapleMono-NF-CN-''${weight}.woff2 $out/
+                  done
+                '';
+            in
+            {
             # By default, the 'emanote' flake input is used.
             # package = inputs.emanote.packages.${system}.default;
             sites = rec {
@@ -45,6 +59,10 @@
                     # `nix run` (live server) to enable hot reload and .emanoteignore.
                     # cf. https://discourse.nixos.org/t/converting-from-types-path-to-types-str/19405
                     pathString = ".";
+                  }
+                  {
+                    path = maple-mono-fonts;
+                    mountPoint = "static/fonts";
                   }
                 ];
                 port = 7001;

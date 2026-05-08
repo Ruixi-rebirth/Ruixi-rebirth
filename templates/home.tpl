@@ -21,11 +21,11 @@
         </div>
 
         <div class="flex flex-row items-center justify-center space-x-4 w-full">
-          <!---->
+          <!--
           <a href="cv" class="px-6 py-2 bg-rose-400 text-white rounded-full font-semibold hover:bg-rose-300 transition-colors shadow-md" title="Curriculum Vitae">
             CV
           </a>
-          <!---->
+          -->
 
           <a href="-/all" class="p-2 w-10 h-10 ${cardSmallClass} flex items-center justify-center text-gray-700 dark:text-gray-200" title="Public notes">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
