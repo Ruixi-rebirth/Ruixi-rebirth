@@ -34,6 +34,12 @@
     font-weight: 300;
   }
 
+  /* ── Index tree: reset summary defaults, rotate chevron ── */
+  summary.index-tree-summary { list-style: none; cursor: pointer; }
+  summary.index-tree-summary::-webkit-details-marker { display: none; }
+  .index-icon-chevron { transition: transform 0.2s ease; transform: rotate(-90deg); }
+  details[open] > summary .index-icon-chevron { transform: rotate(0deg); }
+
   /* ── Custom primary palette: misty rain cyan ── */
   :root {
     --color-primary-50:  #dff0ed;
