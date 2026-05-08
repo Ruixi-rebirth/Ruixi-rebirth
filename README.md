@@ -2,7 +2,7 @@
 
 ![](https://komarev.com/ghpvc/?username=Ruixi-rebirth&abbreviated=true&style=plastic&&label=View)
 
-Welcome! I'm a developer focusing on Nix, Rust, Web3, and more.
+Welcome!
 Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
 
 ---
@@ -46,7 +46,7 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
     </tr>
   </thead>
   <tbody>
-    
+
   <tr>
     <td width="35%">
       <a href="https://github.com/Ruixi-rebirth/flakes"><b>flakes</b></a><br>

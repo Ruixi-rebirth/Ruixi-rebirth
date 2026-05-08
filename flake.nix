@@ -39,29 +39,20 @@
               default = {
                 layers = [
                   {
-                    path = pkgs.lib.cleanSourceWith {
-                      src = ./.;
-                      filter =
-                        path: type:
-                        let
-                          baseName = baseNameOf path;
-                          isTopLevel = dirOf path == toString ./.;
-                        in
-                        !(lib.hasSuffix "flake.nix" path)
-                        && !(lib.hasSuffix "flake.lock" path)
-                        && !(lib.hasSuffix "update" path)
-                        && !(isTopLevel && lib.hasPrefix "." baseName)
-                        && !(isTopLevel && baseName == "README.md");
-                    };
+                    path = ./.; # Nix store path, used by `nix build`
+                    # HACK (upstream): `path` gets copied to Nix store, so toString gives
+                    # a store path. `pathString` overrides it with the real local path for
+                    # `nix run` (live server) to enable hot reload and .emanoteignore.
+                    # cf. https://discourse.nixos.org/t/converting-from-types-path-to-types-str/19405
                     pathString = ".";
                   }
                 ];
-                # port = 8080;
+                port = 7001;
               };
-              # Optimized for deploying to https://<user>.github.io/<repo-name> URLs
+              # Fallback for deploying without a custom domain (e.g. if ruixi2fp.top expires)
               github-io = default // {
                 check = false;
-                extraConfig.template.baseUrl = "/emanote-template/";
+                extraConfig.template.baseUrl = "/Ruixi-rebirth/"; # GitHub Pages sub-path
               };
             };
           };

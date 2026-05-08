@@ -22,7 +22,7 @@ jobs:
             git config --local user.name "github-actions"
             git config --local user.email "action@github.com"
             git add README.md
-            if [ "$(git log --format=%an HEAD~..HEAD)" = github-actions ]; then
+            if [ "$(git log --format=%s -1)" = "update README.md" ]; then
               git commit --amend --no-edit
               git push -f
             else
