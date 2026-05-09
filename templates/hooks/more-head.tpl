@@ -54,7 +54,7 @@
 
   /* ── Sidebar indent line ── */
   #sidebar .emanote-tree-children {
-    border-left: 1px solid var(--color-gray-200);
+    border-left: 1px solid var(--color-gray-300);
     margin-left: 0.75rem;
     padding-left: 0.25rem;
   }
