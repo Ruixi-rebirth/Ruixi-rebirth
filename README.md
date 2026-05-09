@@ -27,7 +27,7 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
 <tr><td>🔀 Pull requests</td><td align='right'><b>157 (132 merged)</b></td></tr>
 <tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>208</a></b></td></tr>
 <tr><td>👤 Following</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=following'>75</a></b></td></tr></table></td>
-    <td><table><tr><td>Nix</td><td align='left'><code>███████░░░░░░░░</code><b>49.35%</b></td></tr><tr><td>Lua</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>14.54%</b></td></tr><tr><td>C++</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>12.65%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>9.36%</b></td></tr><tr><td>Python</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>5.87%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>3.2%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.86%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.62%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.55%</b></td></tr><tr><td>CMake</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.52%</b></td></tr></table></td>
+    <td><table><tr><td>Nix</td><td align='left'><code>███████░░░░░░░░</code><b>49.34%</b></td></tr><tr><td>Lua</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>14.54%</b></td></tr><tr><td>C++</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>12.65%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>9.36%</b></td></tr><tr><td>Python</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>5.87%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>3.2%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.86%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.62%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.55%</b></td></tr><tr><td>CMake</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.52%</b></td></tr></table></td>
   </tr>
 </table>
 
@@ -76,4 +76,4 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
 
 ---
 
-Last updated: 2026-05-09 08:55:27 UTC+8
+Last updated: 2026-05-09 13:40:29 UTC+8
