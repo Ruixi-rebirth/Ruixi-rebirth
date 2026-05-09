@@ -18,7 +18,9 @@
   </bind>
   <else />
   <bind tag="icon">
-    <span class="block w-1 h-1 rounded-full bg-gray-300 dark:bg-gray-700"></span>
+    <span class="w-5 h-5 inline-flex items-center justify-center flex-shrink-0">
+      <span class="block w-1 h-1 rounded-full bg-gray-300 dark:bg-gray-700"></span>
+    </span>
   </bind>
 </has-children>
 

@@ -29,9 +29,23 @@
     font-display: swap;
   }
 
-  body, code, pre {
-    font-family: 'Maple Mono NF CN', monospace;
+  :root {
+    --font-serif: 'Maple Mono NF CN', monospace;
+    --font-sans:  'Maple Mono NF CN', monospace;
+    --font-mono:  'Maple Mono NF CN', monospace;
+  }
+
+  body, h1, h2, h3, h4, h5, h6,
+  code, pre, kbd, samp, .font-mono,
+  #sidebar, #toc, #footer, #breadcrumbs, #backlinks,
+  strong.error {
+    font-family: 'Maple Mono NF CN', monospace !important;
     font-weight: 300;
+  }
+
+  /* ── Inline code: dark mode background ── */
+  .dark :not(pre) > code {
+    background-color: var(--color-gray-700) !important;
   }
 
   /* ── Sidebar tree: tighten spacing ── */
