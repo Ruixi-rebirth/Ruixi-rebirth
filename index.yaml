@@ -2,6 +2,7 @@
 # https://github.com/srid/emanote/blob/master/emanote/default/index.yaml
 
 page:
+  lang: zh
   siteTitle: Ruixi rebirth
   siteName: Ruixi-rebirth
 
