@@ -22,12 +22,12 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
 <tr><td>⭐ Stargazers</td><td align='right'><b>1023</b></td></tr>
 <tr><td>🍴 Forks</td><td align='right'><b>69</b></td></tr>
 <tr><td>🤝 Contributed to</td><td align='right'><b>10</b></td></tr>
-<tr><td>📈 Commits</td><td align='right'><b>1253</b></td></tr>
+<tr><td>📈 Commits</td><td align='right'><b>1284</b></td></tr>
 <tr><td>📋 Issues</td><td align='right'><b>26 (25 closed)</b></td></tr>
 <tr><td>🔀 Pull requests</td><td align='right'><b>165 (139 merged)</b></td></tr>
 <tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>208</a></b></td></tr>
 <tr><td>👤 Following</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=following'>75</a></b></td></tr></table></td>
-    <td><table><tr><td>Nix</td><td align='left'><code>███████░░░░░░░░</code><b>49.42%</b></td></tr><tr><td>Lua</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>14.52%</b></td></tr><tr><td>C++</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>12.63%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>9.35%</b></td></tr><tr><td>Python</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>5.86%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>3.19%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.86%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.62%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.55%</b></td></tr><tr><td>CMake</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.52%</b></td></tr></table></td>
+    <td><table><tr><td>Nix</td><td align='left'><code>███████░░░░░░░░</code><b>49.35%</b></td></tr><tr><td>Lua</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>14.5%</b></td></tr><tr><td>C++</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>12.61%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>9.33%</b></td></tr><tr><td>Python</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>5.85%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>3.19%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.85%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.62%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.55%</b></td></tr><tr><td>CMake</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.51%</b></td></tr></table></td>
   </tr>
 </table>
 
@@ -46,7 +46,7 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
     </tr>
   </thead>
   <tbody>
-
+    
   <tr>
     <td width="35%">
       <a href="https://github.com/Ruixi-rebirth/flakes"><b>flakes</b></a><br>
@@ -87,4 +87,4 @@ If you find my work helpful, feel free to support!
 
 ---
 
-Last updated: 2026-05-15 08:58:14 UTC+8
+Last updated: 2026-05-15 22:03:29 UTC+8
