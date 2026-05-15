@@ -46,7 +46,7 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
     </tr>
   </thead>
   <tbody>
-    
+
   <tr>
     <td width="35%">
       <a href="https://github.com/Ruixi-rebirth/flakes"><b>flakes</b></a><br>
@@ -73,6 +73,17 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
 </table>
 
 <!-- PROJECTS_END -->
+
+---
+
+#### 💙 Donate
+
+If you find my work helpful, feel free to support!
+
+| Network           | Coin       | Address              | QR Code          |
+| ----------------- | ---------- | -------------------- | ---------------- |
+| Ethereum (ERC-20) | ETH / USDT | `0xYOUR_ETH_ADDRESS` | ![](YOUR_QR_URL) |
+| Tron (TRC-20)     | USDT       | `TYOUR_TRON_ADDRESS` | ![](YOUR_QR_URL) |
 
 ---
 
