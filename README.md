@@ -19,15 +19,15 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
   <tr valign="top">
     <td><table><tr><td>🚀 Repositories</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=repositories'>47</a></b></td></tr>
 <tr><td>📜 Gists</td><td align='right'><b><a href='https://gist.github.com/Ruixi-rebirth'>0</a></b></td></tr>
-<tr><td>⭐ Stargazers</td><td align='right'><b>1028</b></td></tr>
+<tr><td>⭐ Stargazers</td><td align='right'><b>1030</b></td></tr>
 <tr><td>🍴 Forks</td><td align='right'><b>72</b></td></tr>
 <tr><td>🤝 Contributed to</td><td align='right'><b>10</b></td></tr>
 <tr><td>📈 Commits</td><td align='right'><b>1287</b></td></tr>
 <tr><td>📋 Issues</td><td align='right'><b>26 (25 closed)</b></td></tr>
 <tr><td>🔀 Pull requests</td><td align='right'><b>165 (139 merged)</b></td></tr>
-<tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>211</a></b></td></tr>
+<tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>212</a></b></td></tr>
 <tr><td>👤 Following</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=following'>75</a></b></td></tr></table></td>
-    <td><table><tr><td>Nix</td><td align='left'><code>██████░░░░░░░░░</code><b>38.12%</b></td></tr><tr><td>Python</td><td align='left'><code>████░░░░░░░░░░░</code><b>27.64%</b></td></tr><tr><td>Lua</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>11.06%</b></td></tr><tr><td>C++</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>9.62%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.12%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>2.4%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.41%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.47%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.42%</b></td></tr><tr><td>CMake</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.39%</b></td></tr></table></td>
+    <td><table><tr><td>Nix</td><td align='left'><code>█████░░░░░░░░░░</code><b>35.43%</b></td></tr><tr><td>Python</td><td align='left'><code>█████░░░░░░░░░░</code><b>33.25%</b></td></tr><tr><td>Lua</td><td align='left'><code>██░░░░░░░░░░░░░</code><b>10.13%</b></td></tr><tr><td>C++</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>8.81%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>6.52%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>2.16%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.3%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.43%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.39%</b></td></tr><tr><td>CMake</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.36%</b></td></tr></table></td>
   </tr>
 </table>
 
@@ -86,4 +86,4 @@ If you find my work helpful, feel free to support via crypto!
 
 ---
 
-Last updated: 2026-06-07 09:10:09 UTC+8
+Last updated: 2026-06-14 09:12:34 UTC+8
