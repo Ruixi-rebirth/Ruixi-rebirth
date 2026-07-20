@@ -19,15 +19,15 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
   <tr valign="top">
     <td><table><tr><td>🚀 Repositories</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=repositories'>47</a></b></td></tr>
 <tr><td>📜 Gists</td><td align='right'><b><a href='https://gist.github.com/Ruixi-rebirth'>0</a></b></td></tr>
-<tr><td>⭐ Stargazers</td><td align='right'><b>1042</b></td></tr>
+<tr><td>⭐ Stargazers</td><td align='right'><b>1048</b></td></tr>
 <tr><td>🍴 Forks</td><td align='right'><b>71</b></td></tr>
 <tr><td>🤝 Contributed to</td><td align='right'><b>10</b></td></tr>
-<tr><td>📈 Commits</td><td align='right'><b>1355</b></td></tr>
+<tr><td>📈 Commits</td><td align='right'><b>1365</b></td></tr>
 <tr><td>📋 Issues</td><td align='right'><b>26 (25 closed)</b></td></tr>
 <tr><td>🔀 Pull requests</td><td align='right'><b>164 (138 merged)</b></td></tr>
-<tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>216</a></b></td></tr>
+<tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>215</a></b></td></tr>
 <tr><td>👤 Following</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=following'>75</a></b></td></tr></table></td>
-    <td><table><tr><td>Python</td><td align='left'><code>██████░░░░░░░░░</code><b>39.4%</b></td></tr><tr><td>Nix</td><td align='left'><code>█████░░░░░░░░░░</code><b>30.87%</b></td></tr><tr><td>Lua</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>8.86%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.86%</b></td></tr><tr><td>C++</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.71%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.89%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.13%</b></td></tr><tr><td>Typst</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.41%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.38%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.34%</b></td></tr></table></td>
+    <td><table><tr><td>Python</td><td align='left'><code>██████░░░░░░░░░</code><b>39.29%</b></td></tr><tr><td>Nix</td><td align='left'><code>█████░░░░░░░░░░</code><b>31.02%</b></td></tr><tr><td>Lua</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>8.84%</b></td></tr><tr><td>Go</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.84%</b></td></tr><tr><td>C++</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.68%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.89%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.13%</b></td></tr><tr><td>Typst</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.45%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.38%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.34%</b></td></tr></table></td>
   </tr>
 </table>
 
@@ -54,7 +54,7 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
     </td>
     <td width="50%">My presonal NixOS config, etc.</td>
     <td width="15%" align="right">
-      <b>⭐ 97</b><br>
+      <b>⭐ 98</b><br>
       <b>🍴 6</b>
     </td>
   </tr>
@@ -86,4 +86,4 @@ If you find my work helpful, feel free to support via crypto!
 
 ---
 
-Last updated: 2026-07-19 11:19:53 UTC+8
+Last updated: 2026-08-09 10:02:04 UTC+8
