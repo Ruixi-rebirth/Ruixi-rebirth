@@ -17,17 +17,17 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
     <th width="50%">💻 Languages</th>
   </tr>
   <tr valign="top">
-    <td><table><tr><td>🚀 Repositories</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=repositories'>50</a></b></td></tr>
+    <td><table><tr><td>🚀 Repositories</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=repositories'>51</a></b></td></tr>
 <tr><td>📜 Gists</td><td align='right'><b><a href='https://gist.github.com/Ruixi-rebirth'>0</a></b></td></tr>
-<tr><td>⭐ Stargazers</td><td align='right'><b>1055</b></td></tr>
-<tr><td>🍴 Forks</td><td align='right'><b>71</b></td></tr>
+<tr><td>⭐ Stargazers</td><td align='right'><b>1061</b></td></tr>
+<tr><td>🍴 Forks</td><td align='right'><b>70</b></td></tr>
 <tr><td>🤝 Contributed to</td><td align='right'><b>11</b></td></tr>
-<tr><td>📈 Commits</td><td align='right'><b>1391</b></td></tr>
+<tr><td>📈 Commits</td><td align='right'><b>1515</b></td></tr>
 <tr><td>📋 Issues</td><td align='right'><b>26 (25 closed)</b></td></tr>
 <tr><td>🔀 Pull requests</td><td align='right'><b>165 (139 merged)</b></td></tr>
-<tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>216</a></b></td></tr>
+<tr><td>👥 Followers</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=followers'>215</a></b></td></tr>
 <tr><td>👤 Following</td><td align='right'><b><a href='https://github.com/Ruixi-rebirth?tab=following'>75</a></b></td></tr></table></td>
-    <td><table><tr><td>Python</td><td align='left'><code>█████░░░░░░░░░░</code><b>33.02%</b></td></tr><tr><td>Nix</td><td align='left'><code>████░░░░░░░░░░░</code><b>26.75%</b></td></tr><tr><td>Go</td><td align='left'><code>███░░░░░░░░░░░░</code><b>22.25%</b></td></tr><tr><td>Lua</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.21%</b></td></tr><tr><td>C++</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>6.18%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.82%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.91%</b></td></tr><tr><td>Typst</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.36%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.3%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.27%</b></td></tr></table></td>
+    <td><table><tr><td>Python</td><td align='left'><code>█████░░░░░░░░░░</code><b>34.11%</b></td></tr><tr><td>Nix</td><td align='left'><code>████░░░░░░░░░░░</code><b>26.54%</b></td></tr><tr><td>Go</td><td align='left'><code>███░░░░░░░░░░░░</code><b>21.76%</b></td></tr><tr><td>Lua</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>7.05%</b></td></tr><tr><td>C++</td><td align='left'><code>█░░░░░░░░░░░░░░</code><b>6.05%</b></td></tr><tr><td>Shell</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>1.78%</b></td></tr><tr><td>C</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.89%</b></td></tr><tr><td>Typst</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.35%</b></td></tr><tr><td>Rust</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.3%</b></td></tr><tr><td>Batchfile</td><td align='left'><code>░░░░░░░░░░░░░░░</code><b>0.26%</b></td></tr></table></td>
   </tr>
 </table>
 
@@ -50,11 +50,11 @@ Visit my blog: [**ruixi2fp.top**](https://ruixi2fp.top) 🌐
   <tr>
     <td width="35%">
       <a href="https://github.com/Ruixi-rebirth/flakes"><b>flakes</b></a><br>
-      <img src="https://img.shields.io/badge/-Nix-333?style=flat-square&logo=nixos&logoColor=white" alt="Nix"> <img src="https://img.shields.io/badge/-Shell-333?style=flat-square&logo=gnubash&logoColor=white" alt="Shell"> <img src="https://img.shields.io/badge/-Go-333?style=flat-square&logo=go&logoColor=white" alt="Go">
+      <img src="https://img.shields.io/badge/-Nix-333?style=flat-square&logo=nixos&logoColor=white" alt="Nix"> <img src="https://img.shields.io/badge/-Python-333?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/-Shell-333?style=flat-square&logo=gnubash&logoColor=white" alt="Shell">
     </td>
     <td width="50%">My presonal NixOS config, etc.</td>
     <td width="15%" align="right">
-      <b>⭐ 99</b><br>
+      <b>⭐ 97</b><br>
       <b>🍴 6</b>
     </td>
   </tr>
@@ -86,4 +86,4 @@ If you find my work helpful, feel free to support via crypto!
 
 ---
 
-Last updated: 2026-09-15 12:13:05 UTC+8
+Last updated: 2026-10-31 12:51:56 UTC+8
